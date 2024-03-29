@@ -19,7 +19,7 @@ USER ubuntu
 
 WORKDIR /myApp
 COPY . .
-
+EXPOSE 36060
 RUN sudo chmod 777 ./gaganode_install.sh
 CMD ./gaganode_install.sh ; sleep infinity
 
