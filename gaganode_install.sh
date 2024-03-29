@@ -19,4 +19,5 @@ sed -i "s/token='[^']*'/token='$TOKEN'/g" root_conf/default.toml
 # Step 5: Run the gaganode process
 # Here, I'm directly running the command without nohup. If you want this script to exit and leave gaganode running,
 # you might consider different strategies depending on your Docker setup.
+chmod +x gaganode
 ./gaganode &
