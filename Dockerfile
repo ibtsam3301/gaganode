@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 LABEL An Decentralized IP Marketplace to Leave Your Limitations Behind. <www.bura.dev>
 
 RUN apt-get update && \
-      apt-get -y install sudo curl tar ca-certificates
+      apt-get -y install sudo curl tar ca-certificates wget
 	  
 # Create ubuntu user with sudo privileges
 RUN useradd -ms /bin/bash ubuntu && \
