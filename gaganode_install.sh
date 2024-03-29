@@ -14,7 +14,7 @@ cd gaganode-linux-amd64
 
 # Step 4: Update the configuration file with the token from environment variable
 # Replace 'your_token_variable' with the actual name of your environment variable
-sed -i "s/token='[^']*'/token='$TOKEN'/g" root_conf/default.toml
+sed -i "s/token = ''/token = '$TOKEN'/g" root_conf/default.toml
 
 # Step 5: Run the gaganode process
 # Here, I'm directly running the command without nohup. If you want this script to exit and leave gaganode running,
