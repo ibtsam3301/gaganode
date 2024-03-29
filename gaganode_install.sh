@@ -10,7 +10,7 @@ wget https://assets.coreservice.io/public/package/68/gaganode_pro/0.0.300/gagano
 tar xzvf gaganode_pro-0_0_300.tar.gz
 
 # Step 3: Change directory
-cd gaganode-linux-amd64
+cd gaganode-linux-arm64
 
 # Step 4: Update the configuration file with the token from environment variable
 # Replace 'your_token_variable' with the actual name of your environment variable
